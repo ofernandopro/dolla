@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '../ButtonElements';
 import { 
   BtnWrap, 
@@ -12,7 +13,8 @@ import {
   InfoWrapper, 
   Subtitle, 
   TextWrapper, 
-  TopLine } from './InfoElements';
+  TopLine
+} from './InfoElements';
 
 function InfoSection({
   lightBg, 
@@ -42,7 +44,7 @@ function InfoSection({
               <Subtitle darkText={darkText}>{description}</Subtitle>
               <BtnWrap>
                 <Button 
-                  to="home" 
+                  to='/signin'
                   smooth={true}
                   duration={500}
                   spy={true}
