@@ -22,4 +22,4 @@ Clicking on the Sign In button, you are redirected to the Sign In page, in which
 <br />
 <img src="images-doc/signin-page.png" />
 <br />
-Observations: This website does not belongs to a real company, it just a personal project with the only goal to improve my skills in React.
+Observations: This website does not belong to a real company, it just a personal project with the only goal to improve my skills in React.
